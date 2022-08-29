@@ -1,0 +1,66 @@
+:root {
+    --White: hsl(0, 0%, 100%)
+    --LightGray: hsl(212, 45%, 89%)
+    --GrayishBlue: hsl(220, 15%, 55%)
+    --DarkBlue: hsl(218, 44%, 22%)
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    background-color: hsl(212, 45%, 89%);
+    margin: 0%;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contenedor_sombra {
+    width: 18%;
+    background-color: rgba(0,0,0,0.025);
+    border-radius: 5%;
+}
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 5% auto 8% auto;
+    border-radius: 5%;
+    background-color: hsl(0, 0%, 100%);
+}
+
+.contenedorQR  {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 90%;
+}
+
+.contenedorQR img {
+    border-radius: 5%;
+    width: 90%;
+    margin: 10% auto 0 auto;
+}
+
+.contenedorQR h2, p {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
